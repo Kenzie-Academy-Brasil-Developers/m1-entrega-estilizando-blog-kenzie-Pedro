@@ -1,22 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     background-color: #f1f3f5;
     padding: 0x;
-    margin: 15px;
     font-family: 'Roboto', sans-serif;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .container {
     justify-content: center;
-    margin: 15px;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 10px;
+    max-width: 100%;
 }
-
 
 header {
     border: solid 1px;
@@ -34,8 +31,6 @@ header {
 p {
     font-size: 15;
 }
-
-
 
 .link {
     border: solid 1px blue;
