@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 body {
     height: 100vh;
     background-color: #f1f3f5;
@@ -9,6 +11,7 @@ body {
 .container {
     margin: 10px;
     width: 100%;
+    max-width: 1900px;
 }
 
 header {
